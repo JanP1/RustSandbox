@@ -1,18 +1,9 @@
-[
-  {
-    "id": 1,
-    "title": "My To-Do List",
-    "tasks": [
-      { "description": "Buy groceries", "done": false },
-      { "description": "Finish homework", "done": true }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "My Second List",
-    "tasks": [
-      { "description": "Do sth", "done": false },
-      { "description": "Finish sth", "done": true }
-    ]
-  }
-]
+
+{
+  "id": 1,
+  "title": "My To-Do List",
+  "tasks": [
+    { "description": "Buy groceries", "done": false },
+    { "description": "Finish homework", "done": true }
+  ]
+}
