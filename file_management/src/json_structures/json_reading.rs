@@ -2,6 +2,7 @@ use std::fs::File;
 use std::io::Read;
 use super::json_structure_enums::ToDoList;
 
+
 pub fn read_todo_from_file(filename: &str) -> std::io::Result<ToDoList> {
     let mut file = File::open(filename)?;
     let mut contents = String::new();
